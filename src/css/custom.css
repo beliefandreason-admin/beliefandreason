@@ -6,13 +6,13 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #2e4885;
+  --ifm-color-primary-dark: #294178;
+  --ifm-color-primary-darker: #273d71;
+  --ifm-color-primary-darkest: #20325d;
+  --ifm-color-primary-light: #273d71;
+  --ifm-color-primary-lighter: #355399;
+  --ifm-color-primary-lightest: #3c5ead;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
@@ -28,3 +28,18 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+blockquote {
+  border-left: 4px solid #3c5ead; /* Change the border color */
+  padding-left: 16px;            /* Add some padding */
+  margin: 1em 0;                /*  Adjust spacing */
+  color: #212121;                /* Customize text color */
+  font-style: italic;            /* Make the text italicized */
+  background-color: #f7f6f6;     /* Add a subtle background color */
+}
+
+img.themedComponent--light_NVdE.themedComponent_mlkZ {
+  border-radius: 5px;
+}
+
+
