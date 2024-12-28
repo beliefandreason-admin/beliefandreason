@@ -15,14 +15,14 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://beliefandreason.com',
+  url: 'https://beliefandreason-admin.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/beliefandreason',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
+  organizationName: 'beliefandreason-admin', // Usually your GitHub org/user name.
   projectName: 'beliefandreason', // Usually your repo name.
 
   onBrokenLinks: 'throw',
