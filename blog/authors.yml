@@ -1,23 +1,23 @@
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
+barlion:
+  name: Bar Lion
+  title: Front End, Backend Engineer | Documentation
+  url: https://github.com/beliefandreason-admin
+  image_url: https://avatars.githubusercontent.com/u/124141007?s=400&u=0395e8d4f9312c5939f93034ee58f026ce9d6631&v=4
   page: true
   socials:
-    x: yangshunz
-    github: yangshun
+    x: beliefandreason
+    github: beliefandreason-admin
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
-  page:
+# slorber:
+  # name: Sébastien Lorber
+  # title: Docusaurus maintainer
+  # url: https://sebastienlorber.com
+  # image_url: https://github.com/slorber.png
+  # page:
     # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
-  socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
+   # permalink: '/all-sebastien-lorber-articles'
+  # socials:
+  #  x: sebastienlorber
+  #  linkedin: sebastienlorber
+  #  github: slorber
+  #  newsletter: https://thisweekinreact.com
