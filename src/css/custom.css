@@ -42,4 +42,21 @@ img.themedComponent--light_NVdE.themedComponent_mlkZ {
   border-radius: 5px;
 }
 
+/* Highlight Bible references with a custom style */
+.rtBibleRef {
+  color: #1e90ff; /* Bright blue for visibility */
+  font-weight: bold; /* Make text bold */
+  text-decoration: underline; /* Underline references */
+  cursor: pointer; /* Indicate they are clickable */
+}
+
+/* Change the hover style for Bible references */
+.rtBibleRef:hover {
+  color: #1e90ff; /* Bright orange on hover */
+  text-decoration: none; /* Remove underline on hover */
+  background-color: #f0f8ff; /* Light background highlight */
+  border-radius: 4px; /* Rounded corners */
+  padding: 2px 4px; /* Add slight padding */
+}
+
 

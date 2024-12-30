@@ -10,7 +10,7 @@ hear this: \
 **from the time it came to be I have been there.** \
 And now **the Lord God has sent me**, \
 and **his Spirit**. \
->  **Isaiah 48:16** 
+>  Isaiah 48:16
 
 This passage describes **three distinct persons** existing within the Godhead: the **Lord God**, _the speaker_, and both the Messiah, and **the Spirit** who are sent.
 
@@ -18,7 +18,7 @@ This passage describes **three distinct persons** existing within the Godhead: t
 '**Sit at my right hand**, \
 **until** \
 I make your enemies your footstool.' \
-> **Psalm 110:1**
+> Psalm 110:1
 
 Psalm 110:1 is significant because this verse declares a distinction between the Lord (God the Father) and the Lord's anointed (messiah), who is also referred to as "Lord." The use of _until_ specifies the duration of the ongoing action _"Sit at my right hand"_ relative to a future event _"I make your enemies your footstool"_.
 
@@ -31,18 +31,18 @@ In fact this was the very statement which led to charges of blasphemy, as it was
 who are too small to be among the clans of Judah, \
 from you for me one will go out to be ruler over Israel, \
 **whose origins are from old, from ancient times.** \
-> **Micah 5:2**
+> (Micah 5:2)
 
 The Messiah will be a divine being, whose origins are from eternity past.
 He would come from Bethlehem.
 
 Context: 
-**Matthew 2:1-6**
+Matthew 2:1-6
 "Now after Jesus was born in **Bethlehem of Judea** in the days of Herod the king, behold, wise men from the east came to Jerusalem, saying, **'Where is he who has been born king of the Jews**?
 
 The jewish leaders **themselves** said **Micah 5:2 pointed to the birthplace of the Messiah**..
 
-**Matthew 2:3-6**
+Matthew 2:3-6
 >When Herod the king heard this, **he was troubled, and all Jerusalem with him**; and **assembling all the chief priests and scribes of the people**, he inquired of them **where the Christ was to be born**. They told him, '**In Bethlehem of Judea**, for so it is written by the prophet: "And you, O Bethlehem, in the land of Judah, are by no means least among the rulers of Judah; for from you **shall come a ruler who will shepherd my people Israel**.
 
 **Luke 2:4-7**
