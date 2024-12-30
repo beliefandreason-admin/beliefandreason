@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Spirit Driven Study',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        But it is the spirit in man, the breath of the Almighty, that makes him understand.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Logos Driven Change',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        For the word of God is living and active, sharper than any two-edged sword, piercing to the division of soul and of spirit, of joints and of marrow, and discerning the thoughts and intentions of the heart. 
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'What is the Fathers Will?',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        For this is the will of My Father, that everyone who beholds the Son and believes in Him will have eternal life, and I Myself will raise him up on the last day
       </>
     ),
   },
