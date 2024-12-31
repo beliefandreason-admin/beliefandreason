@@ -4,17 +4,40 @@ sidebar_position: 2
 
 # The Plurality of God (Trinity) Revealed
 
+Many people claim, "The word **Trinity** _isn’t in the Bible_," or _The Trinity isn’t supported by Scripture_." But often, these statements come from a gross misunderstanding what the Bible actually says. 
+While the word itself doesn’t appear in Scripture, it's revelation speak of **one God in essence**, existing eternally in **three distinct persons**: the Father, the Son, and the Holy Spirit.
 
+The concept of the Trinity requires us to delve into the profound depths of God's self-revelation. Far from being a contradiction or a human invention, the Trinity reflects the rich and multifaceted nature of the Godhead as presented in the Bible. 
+
+So, journey with me through the Scriptures, exploring the evidence and uncovering the beauty of this divine mystery. Along the way, we will see how the doctrine of the Trinity not only aligns with biblical teaching but also enriches our understanding of God's love, His purpose, and His plan for redemption.
 
 ## Isaiah 
 
-> **Isaiah 9:6** \
-> For to us **a child is born**, to us **a son is given**, and **the government will be on his shoulders**. And he will be called Wonderful Counselor, **Mighty God, Everlasting Father**, Prince of Peace.
-
 > **Isaiah 7:14** \
-> 14 Therefore the Lord himself will give you a sign. Behold, the virgin shall conceive and bear a son, and shall call **his name Immanuel**.
+> 14 Therefore the **Lord himself will give you a sign**. \
+Behold, **the virgin shall conceive and bear a son**, \
+and shall call **his name Immanuel**.
 
 Immanuel is composed of two words - **Imanu** meaning **with us** and **El** representing God.
+
+> **Isaiah 9:6** \
+> For to us **a child is born**, \
+> to us **a son is given**, \
+> and **the government will be on his shoulders**. \
+> And he will be called
+>
+>**Wonderful Counselor**, \
+**Mighty God, \
+Everlasting Father**, \
+Prince of Peace.
+>
+> Of the greatness of his government and peace \
+**there will be no end**. \
+He will reign on David’s throne \
+and over his kingdom, \
+**establishing and upholding it** \
+with justice and righteousness \
+**from that time on and forever**.
 
 
 > Isaiah 48:16 \
