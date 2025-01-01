@@ -19,7 +19,9 @@ jobs:
         node-version: 18
 
     - name: Install dependencies
-      run: npm install
+      run: |
+        npm install
+        npm install react-reftagger
 
     - name: Build Docusaurus site
       run: npm run build
