@@ -23,11 +23,11 @@ jobs:
         npm install
         npm install react-reftagger
 
-    - name: Create CNAME file
-      run: echo 'beliefandreason.com' > build/CNAME
-
     - name: Build Docusaurus site
       run: npm run build
+
+    - name: Ensure CNAME file exists
+      run: echo 'beliefandreason.com' > build/CNAME
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
