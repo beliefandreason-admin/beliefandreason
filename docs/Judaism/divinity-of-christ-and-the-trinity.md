@@ -4,7 +4,6 @@ sidebar_position: 2
 
 # The Plurality of God (Trinity) Revealed
 
-This is a test for abduuls
 
 Many people claim, "The word **Trinity** _isn’t in the Bible_," or _The Trinity isn’t supported by Scripture_." But often, these statements come from a gross misunderstanding what the Bible actually says. 
 While the word itself doesn’t appear in Scripture, it's revelation speak of **one God in essence**, existing eternally in **three distinct persons**: the Father, the Son, and the Holy Spirit.
