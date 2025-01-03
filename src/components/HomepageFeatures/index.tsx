@@ -2,37 +2,46 @@ import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
-const FeatureList = [
+type FeatureItem = {
+  title: string;
+  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  description: JSX.Element;
+};
+
+const FeatureList: FeatureItem[] = [
   {
-    title: 'Spirit Driven Study',
+    title: 'Easy to Use',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        But it is the spirit in man, the breath of the Almighty, that makes him understand.
+        Docusaurus was designed from the ground up to be easily installed and
+        used to get your website up and running quickly.
       </>
     ),
   },
   {
-    title: 'Logos Driven Change',
+    title: 'Focus on What Matters',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        For the word of God is living and active, sharper than any two-edged sword, piercing to the division of soul and of spirit, of joints and of marrow, and discerning the thoughts and intentions of the heart. 
+        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
+        ahead and move your docs into the <code>docs</code> directory.
       </>
     ),
   },
   {
-    title: 'What is the Fathers Will?',
+    title: 'Powered by React',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        For this is the will of My Father, that everyone who beholds the Son and believes in Him will have eternal life, and I Myself will raise him up on the last day
+        Extend or customize your website layout by reusing React. Docusaurus can
+        be extended while reusing the same header and footer.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({title, Svg, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
@@ -46,7 +55,7 @@ function Feature({Svg, title, description}) {
   );
 }
 
-export default function HomepageFeatures() {
+export default function HomepageFeatures(): JSX.Element {
   return (
     <section className={styles.features}>
       <div className="container">

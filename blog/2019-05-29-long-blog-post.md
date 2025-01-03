@@ -1,7 +1,7 @@
 ---
 slug: long-blog-post
 title: Long Blog Post
-authors: barlion
+authors: yangshun
 tags: [hello, docusaurus]
 ---
 
