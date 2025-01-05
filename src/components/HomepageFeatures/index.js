@@ -4,32 +4,42 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Spirit Driven Study',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Spirit of the Living God',
+    Svg: require('@site/static/img/holy-spirit-fire.svg').default,
     description: (
       <>
-        But it is the spirit in man, the breath of the Almighty, that makes him understand.
+         And you show that you are a letter from Christ delivered by us, <b>written not with ink but with the Spirit of the living God, </b> 
+           not on tablets of stone but on tablets of human hearts.
+           <div style={{ textAlign: 'center', marginTop: '8px' }}>
+          <b>2 Corinthians 3:3</b>
+        </div>
       </>
     ),
   },
   {
-    title: 'Logos Driven Change',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Living and Active',
+    Svg: require('@site/static/img/open-bible.svg').default,
     description: (
       <>
-        For the word of God is living and active, sharper than any two-edged sword, piercing to the division of soul and of spirit, of joints and of marrow, and discerning the thoughts and intentions of the heart. 
+        For <b>the word of God is living and active</b>. Sharper than any double-edged sword, it penetrates even to dividing soul and spirit, joints and marrow; <b>it judges the thoughts and attitudes of the heart.</b>
+        <div style={{ textAlign: 'center', marginTop: '8px' }}>
+          <b>Hebrews 4:12</b>
+        </div>
       </>
     ),
   },
   {
-    title: 'What is the Fathers Will?',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Proclaim Yeshua! (יְשׁוּעָה)',
+    Svg: require('@site/static/img/mountains.svg').default,
     description: (
       <>
-        For this is the will of My Father, that everyone who beholds the Son and believes in Him will have eternal life, and I Myself will raise him up on the last day
+        How beautiful on the mountains are the feet of those who bring good news, who proclaim peace, who bring good tidings, who proclaim <b>salvation</b>, who say to Zion, “<b>Your God reigns!</b>”
+        <div style={{ textAlign: 'center', marginTop: '8px' }}>
+          <b>Isaiah 52:7</b>
+        </div>
       </>
     ),
-  },
+  }
 ];
 
 function Feature({Svg, title, description}) {

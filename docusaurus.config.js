@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Belief and Reason',
-  tagline: 'Blessed is he who comes in the name of the Lord.',
+  title: 'BAR',
+  tagline: 'Blessed is he who comes in the name of the Lord!',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
