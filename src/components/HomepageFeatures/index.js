@@ -10,9 +10,7 @@ const FeatureList = [
       <>
          And you show that you are a letter from Christ delivered by us, <b>written not with ink but with the Spirit of the living God, </b> 
            not on tablets of stone but on tablets of human hearts.
-           <div style={{ textAlign: 'center', marginTop: '8px' }}>
           <b>2 Corinthians 3:3</b>
-        </div>
       </>
     ),
   },
@@ -22,9 +20,7 @@ const FeatureList = [
     description: (
       <>
         For <b>the word of God is living and active</b>. Sharper than any double-edged sword, it penetrates even to dividing soul and spirit, joints and marrow; <b>it judges the thoughts and attitudes of the heart.</b>
-        <div style={{ textAlign: 'center', marginTop: '8px' }}>
           <b>Hebrews 4:12</b>
-        </div>
       </>
     ),
   },
@@ -34,9 +30,8 @@ const FeatureList = [
     description: (
       <>
         How beautiful on the mountains are the feet of those who bring good news, who proclaim peace, who bring good tidings, who proclaim <b>salvation</b>, who say to Zion, “<b>Your God reigns!</b>”
-        <div style={{ textAlign: 'center', marginTop: '8px' }}>
+       
           <b>Isaiah 52:7</b>
-        </div>
       </>
     ),
   }

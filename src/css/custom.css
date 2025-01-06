@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap'); 
 /**
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
@@ -16,10 +17,6 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 
-   /* @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@400;700&display=swap'); */
-
-   /* Import Montserrat from Google Fonts */
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap'); 
 
   /*Light bible quote fonts */
   --bible-quote-font-light: "Montserrat", sans-serif; /* Choose a legible serif font */

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # The Plurality of God (Trinity) Revealed
@@ -69,22 +69,15 @@ For additional context see, Matthew 4:15-16
 
 Psalm 110:1 is profound as it emphasizes the distinction between the Lord (God the Father) and the Lord's anointed (the Messiah), who is also addressed as "Lord." The verse not only highlights the Messiah's exalted status but also reveals a divine timeline.
 
-<!--Example of using MDX for hebrew text -->
-<div dir="rtl" style={{ textAlign: 'left', fontWeight: 'bold' }}>
-  שֵׁב לִימִינִי עַד־אָשִׁית אֹיְבֶיךָ הֲדֹם לְרַגְלֶיךָ
-</div>
-<div dir="ltr" style={{ textAlign: 'left', fontWeight: 'bold' }}>
-  Shev li'mini ad ashit oyevecha hadom leraglecha
-</div>
 
-<div style={{ textAlign: 'left' }}>
-  <span style={{ display: 'inline-block', direction: 'rtl' }}>
-    <strong>עַד</strong>
-  </span>
-  <span style={{ display: 'inline-block', direction: 'ltr' }}>
-    (<em>ʿad</em>) functions as a preposition meaning <b>until</b> or <b>up to</b> indicating a temporal relationship between the command to <i>sit at my right hand</i> and the eventual subjugation of enemies underfoot. This underscores the Messiah's <b>current position of honor and authority</b> and <b>the certainty of God's plan</b> to establish His victory.
-  </span>
-</div>
+שֵׁב לִימִינִי עַד־אָשִׁית אֹיְבֶיךָ הֲדֹם לְרַגְלֶיךָ
+
+Shev li'mini ad ashit oyevecha hadom leraglecha
+
+
+
+(<em>ʿad</em>) functions as a preposition meaning <b>until</b> or <b>up to</b> indicating a temporal relationship between the command to <i>sit at my right hand</i> and the eventual subjugation of enemies underfoot. This underscores the Messiah's <b>current position of honor and authority</b> and <b>the certainty of God's plan</b> to establish His victory.
+
 
 Christ himself when placed on trial makes the claim that he is the **one like the son of man** from **Daniel 7:13** and **Psalm 101:1** **"Sit at my right hand"**
 
@@ -146,11 +139,3 @@ He will be great and will be called **the Son of the Most High**. And **the Lord
 
 > **Isaiah 52:14** \
 > As many were astonished at you— his appearance was so marred, beyond human semblance, and his form beyond that of the children of mankind—
-
-
-## References
-
-| Trinity     | Divinity   |             |              |             |
-| ----------- | ---------- | ----------- | ------------ | ----------- |
-| Isaiah 61:1 | Isaiah 9:6 | Isaiah 42:1 | Isaiah 48:16 | Psalm 110:1 |
-| Isaiah 9:6  | Micah 5:2  | Isaiah 42:1 | Isaiah 48:16 | Psalm 110:1 |

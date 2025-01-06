@@ -20,14 +20,13 @@ At **Belief and Reason**, we are devoted to equipping Christians and engaging se
   * **Belief** is **the mental acceptance or conviction that something is true or real**. It is often based on _evidence, reasoning, or trust_ in a source of information. 
   * **Reason** is the _faculty of logical and analytical thinking_ that **seeks to evaluate evidence, form judgments, and arrive at conclusions**. 
 
-:::important Our Starting assumption (Axiom)
+## Our Starting assumption (Axiom)
 
 **Truth cannot be understood apart from the guidance of the Holy Spirit through God's Word as revealed in and by Jesus Christ**. 
 
 Furthermore, it is our position that God uses our beliefs and reasoning faculties to lead individuals to saving faith in:
 
 **Yeshua HaMashiach (יֵשׁוּעַ הַמָּשִׁיחַ)**, which is Hebrew for "Jesus the Messiah" or "Jesus the Anointed One."
-:::
 
 
 

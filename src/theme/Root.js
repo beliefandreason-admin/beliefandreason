@@ -26,4 +26,3 @@ const Root = ({ children }) => {
 };
 
 export default Root;
-
