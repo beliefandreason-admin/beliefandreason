@@ -47,7 +47,7 @@ Father, You call us to love even those who oppose us. I lift up to You those who
 ### For the Wandering Soul:
 Lord of mercy, You are the Good Shepherd who seeks the lost and calls them by name. I pray for all who have drifted away from Your embrace, whether through doubt, fear, or the distractions of this world. Touch their hearts with Your gentle love and awaken in them a longing to return to You. Let them know that **Your arms are always open**, that **Your mercy is never-ending**, and that **no sin is too great for Your forgiveness**. May they find rest, renewal, and redemption in You, their loving Father.
 
-## For Us All:
+### For Us All:
 Father, unite us in Your truth(Christ) and fill our hearts with Your Spirit. Teach us to walk humbly, to love unconditionally, and to live in a way that reflects Your glory. In Your presence, may we all find our home and rest in the promise of eternal life and the adoption as sons and daughters into your kingdom.
 
 I ask this in the name of Your Son, Jesus Christ, who lives and reigns with You and the Holy Spirit, one God, forever and ever.
