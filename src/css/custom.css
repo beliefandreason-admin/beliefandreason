@@ -16,17 +16,19 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 
-  @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@400;700&display=swap');
+   /* @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@400;700&display=swap'); */
 
+   /* Import Montserrat from Google Fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap'); 
 
   /*Light bible quote fonts */
-  --bible-quote-font-light: "Roboto Flex"; /* Choose a legible serif font */
+  --bible-quote-font-light: "Montserrat", sans-serif; /* Choose a legible serif font */
   --bible-quote-color-light: #4a4a4a; /* Gentle dark text for light mode */
   --bible-quote-bg-light: #fef7e5; /* Light parchment-like background */
   --bible-quote-border-light: #f5c85c; /* Subtle golden border */
 
   /*Dark bible quote fonts */
-  --bible-quote-font-dark: "Roboto Flex"; /* Another serif font for variety */
+  --bible-quote-font-dark: "Montserrat", sans-serif; /* Another serif font for variety */
   --bible-quote-color-dark: #f1f1f1; /* Light text for dark mode */
   --bible-quote-bg-dark: #2a2a2a; /* Deep gray background for contrast */
   --bible-quote-border-dark: #d3a14a; /* Golden border for elegance */
@@ -37,7 +39,7 @@
   --custom-quote-text-color-light: #333333;
 
   /* Quoteblock dark  */
-  --custom-quote-border-color-dark: #ffa500;
+  --custom-quote-border-color-dark: #59ccf3;
   --custom-quote-bg-color-dark: #333333;
   --custom-quote-text-color-dark: #f5f5f5;
 }
@@ -95,9 +97,10 @@ html[data-theme='dark'] blockquote {
 
 /* Highlight Bible references with a custom style */
 .rtBibleRef {
-  color: #1e90ff; /* Bright blue for visibility */
+  color: #59ccf3; /* Bright blue for visibility */
   font-weight: bold; /* Make text bold */
   cursor: pointer; /* Indicate they are clickable */
+  text-decoration: underline;
 }
 
 
