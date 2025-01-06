@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # Arguments against Christ as Messiah
 
+Answers will be added as future documents, this page is tracking statements made by Jewish Rabbis.
+
 ## The Divinity of Jesus and the Trinity
 
 **Objections:**
