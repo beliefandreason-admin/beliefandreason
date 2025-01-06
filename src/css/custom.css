@@ -112,3 +112,8 @@ html[data-theme='dark'] blockquote.custom {
 html, body {
   font-family: 'Mulish', serif;
 }
+
+.DocSearch-Button-Keys {
+  visibility: hidden;
+}
+
