@@ -1,24 +1,15 @@
 ---
 sidebar_position: 1
-sidebar_label: "Welcome to Belief and Reason"
-id: "Introduction"
 ---
 
----
 
-<div style={{ display: 'flex', alignItems: 'center', marginBottom: '20px' }}>
-  <img 
-    src="/img/living-water.svg" 
-    alt="Logo" 
-    style={{ width: '50px', height: '50px', marginRight: '10px' }}
-  />
-  <h1 style={{ margin: 0 }}>Welcome to Belief and Reason!</h1>
-</div>
+# Welcome to Belief and Reason!
+
 
 
 At **Belief and Reason**, we are devoted to equipping Christians and engaging seekers in their pursuit of truth through the complementary disciplines of apologetics and polemics. Our approach is firmly rooted in the authority of Sola Scriptura — Scripture alone as the ultimate standard of truth.
 
----
+
 
 ## Our Mission
 * Our desire is to strengthen and train believers in _faith_, _knowledge_, _wisdom_, and **to develop a Christ like love for others despite evil done against us**.
@@ -38,7 +29,7 @@ Furthermore, it is our position that God uses our beliefs and reasoning facultie
 **Yeshua HaMashiach (יֵשׁוּעַ הַמָּשִׁיחַ)**, which is Hebrew for "Jesus the Messiah" or "Jesus the Anointed One."
 :::
 
----
+
 
 >**John 20:30-31**
 >
@@ -46,7 +37,7 @@ Furthermore, it is our position that God uses our beliefs and reasoning facultie
 >
 >31 **but these are written** so that **you may believe that Jesus is the Christ, the Son of God**, and that **by believing** you may **have life in his name**.
 
----
+
 
 ### For Christians
 This resource provides a strong foundation for understanding and defending the faith (apologetics) while equipping you with the tools to thoughtfully and respectfully challenge opposing ideas (polemics). Our perspectives are firmly rooted in Scripture, the divinely inspired and infallible guide to truth. Through careful exegesis, evidence-based reasoning, and historical analysis, we aim to prepare you to confidently share the hope of the Gospel and engage in meaningful dialogue to advance Christ’s kingdom and overcome the ruler of this world through Him.
@@ -54,7 +45,6 @@ This resource provides a strong foundation for understanding and defending the f
 ### For seekers from all backgrounds
 Whether you come from a different faith tradition, are skeptical, or are simply curious, Belief and Reason provides forum to explore challenging questions. Here, you’ll find thoughtful responses to objections, honest critiques of competing worldviews (which will be life changing), and an invitation to consider how the Bible reveals answers to life’s most profound questions found in the Jewish Messiah alone. 
 
----
 
 ## Our Prayer and Hope
 
