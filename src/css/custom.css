@@ -1,11 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap'); 
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-/* You can override the default Infima variables here. */
+/* Global Styles */
+/* Infima default overrides and additional variables */
 :root {
   --ifm-color-primary: #2e4885;
   --ifm-color-primary-dark: #294178;
@@ -17,31 +14,37 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 
+  --feature-heading-color: #2e4885; /* Example light theme color */
+  /* Light theme Bible reference color */
+  --bible-ref-color: #2e4885;
+  --bible-ref-font-weight: bold;
 
-  /*Light bible quote fonts */
-  --bible-quote-font-light: "Montserrat", sans-serif; /* Choose a legible serif font */
-  --bible-quote-color-light: #4a4a4a; /* Gentle dark text for light mode */
-  --bible-quote-bg-light: #fef7e5; /* Light parchment-like background */
-  --bible-quote-border-light: #f5c85c; /* Subtle golden border */
+  /* Quote Styles - Light Mode */
+  --bible-quote-font-light: "Mulish", serif;
+  --bible-quote-color-light: #4a4a4a;
+  --bible-quote-bg-light: #fef7e5;
+  --bible-quote-border-light: #f5c85c;
 
-  /*Dark bible quote fonts */
-  --bible-quote-font-dark: "Montserrat", sans-serif; /* Another serif font for variety */
-  --bible-quote-color-dark: #f1f1f1; /* Light text for dark mode */
-  --bible-quote-bg-dark: #2a2a2a; /* Deep gray background for contrast */
-  --bible-quote-border-dark: #d3a14a; /* Golden border for elegance */
-
-  /*Custom Quoteblock light */
   --custom-quote-border-color-light: #007acc;
   --custom-quote-bg-color-light: #f0f8ff;
   --custom-quote-text-color-light: #333333;
 
-  /* Quoteblock dark  */
+  /* Quote Styles - Dark Mode */
+  --bible-quote-font-dark: "Mulish", serif;
+  --bible-quote-color-dark: #f1f1f1;
+  --bible-quote-bg-dark: #2a2a2a;
+  --bible-quote-border-dark: #d3a14a;
+
   --custom-quote-border-color-dark: #59ccf3;
   --custom-quote-bg-color-dark: #333333;
   --custom-quote-text-color-dark: #f5f5f5;
+
+
+  /* Font Settings */
+  font-family: 'Mulish', serif;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* Dark Theme Overrides */
 [data-theme='dark'] {
   --ifm-color-primary: #59ccf3;
   --ifm-color-primary-dark: #3ac2f1;
@@ -53,50 +56,59 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-html[data-theme='light'] blockquote {
+[data-theme='dark'] {
+  /* Correct dark theme Bible reference color */
+  --bible-ref-color: #87daf6; /* A lighter, more readable shade of blue for dark backgrounds */
+  --bible-ref-font-weight: bold;
+}
+
+[data-theme='dark'] {
+  /* Dark theme variable for heading color */
+  --feature-heading-color: #59ccf3; /* Example dark theme color */
+}
+
+/* Blockquote Styles */
+html[data-theme='light'] blockquote,
+html[data-theme='dark'] blockquote {
   font-family: var(--bible-quote-font-light);
+  padding: 10px 20px;
+  margin: 20px 0;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+html[data-theme='light'] blockquote {
   color: var(--bible-quote-color-light);
   background-color: var(--bible-quote-bg-light);
   border-left: 4px solid var(--bible-quote-border-light);
-  padding: 10px 20px;
-  margin: 20px 0;
-  font-size: 1.1em;
-  line-height: 1.6;
 }
 
 html[data-theme='dark'] blockquote {
-  font-family: var(--bible-quote-font-dark);
   color: var(--bible-quote-color-dark);
   background-color: var(--bible-quote-bg-dark);
   border-left: 4px solid var(--bible-quote-border-dark);
-  padding: 10px 20px;
-  margin: 20px 0;
-  font-size: 1.1em;
-  line-height: 1.6;
 }
 
-html[data-theme='light'] blockquote {
+html[data-theme='light'] blockquote.custom {
   border-left: 4px solid var(--custom-quote-border-color-light);
   background-color: var(--custom-quote-bg-color-light);
   color: var(--custom-quote-text-color-light);
-  padding: 10px 20px;
-  margin: 20px 0;
-
 }
 
-html[data-theme='dark'] blockquote {
+html[data-theme='dark'] blockquote.custom {
   border-left: 4px solid var(--custom-quote-border-color-dark);
   background-color: var(--custom-quote-bg-color-dark);
   color: var(--custom-quote-text-color-dark);
-  padding: 10px 20px;
-  margin: 20px 0;
 }
 
-/* Highlight Bible references with a custom style */
+/* Highlight Bible References */
 .rtBibleRef {
-  color: #59ccf3; /* Bright blue for visibility */
-  font-weight: bold; /* Make text bold */
-  cursor: pointer; /* Indicate they are clickable */
-  text-decoration: underline;
+  color: var(--bible-ref-color);
+  font-weight: var(--bible-ref-font-weight);
+  cursor: pointer;
 }
 
+/* General Font Settings */
+html, body {
+  font-family: 'Mulish', serif;
+}
