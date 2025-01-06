@@ -135,7 +135,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Belief and Reason, Inc.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Belief and Reason, Inc.`
       },
       prism: {
         theme: prismThemes.github,
