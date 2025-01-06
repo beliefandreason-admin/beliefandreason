@@ -116,7 +116,7 @@ const config = {
                 href: 'https://discord.gg/2yJDzYTcdC',
               },
               {
-                label: 'X',
+                label: ' Belief and Reason - X',
                 href: 'https://x.com/beliefnreason/with_replies',
               },
             ],
@@ -135,7 +135,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Belief and Reason, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Belief and Reason, Inc.`,
       },
       prism: {
         theme: prismThemes.github,
