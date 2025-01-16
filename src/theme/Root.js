@@ -12,7 +12,7 @@ const Root = ({ children }) => {
         window.refTagger.tag();
       }
     };
-
+0
     // Use a slight delay to ensure the DOM updates before re-tagging
     setTimeout(tagReferences, 100);
   }, [location]);
