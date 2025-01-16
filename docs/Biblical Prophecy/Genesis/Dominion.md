@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Gen (1:26, 28) Dominion
+# Gen 1:26, 28 Dominion
 
 ![Lion and Lamb](./lion-lamb.png)
 
@@ -76,13 +76,13 @@ And again, \
 
 | **Reference**       | **Theme Summary**                                                                                               |
 | ------------------- | --------------------------------------------------------------------------------------------------------------- |
-| **Genesis 1:26-28** | God grants humanity dominion over all creation, emphasizing their role as **stewards** of the earth.            |
-| **Genesis 9:1-3**   | After the flood, God reaffirms mankind's authority over animals and provides all living things as food.         |
+| **Gen 1:26-28** | God grants humanity dominion over all creation, emphasizing their role as **stewards** of the earth.            |
+| **Gen 9:1-3**   | After the flood, God reaffirms mankind's authority over animals and provides all living things as food.         |
 | **Job 12:7-10**     | Creation acknowledges God's authority, teaching mankind about the Creator's hand in all life.                   |
-| **Psalm 8:3-8**     | Humanity is crowned with glory and honor, given dominion over all living creatures and the earth.               |
-| **Psalm 115:16**    | God has given the earth to mankind, showing humanity's entrusted role in managing creation.                     |
-| **Psalm 22:22**     | Fulfillment of the dominion mandate in the future via the ascension of Christ.                                  |
-| **Psalm 22:27-28**  | Kingship of the Lord and His dominion                                                                           |
-| **Matthew 6:26**    | Humanity's value surpasses creation, reminding us of God's provision and care for all life.                     |
-| **Hebrews 2:6-8**   | Quotes Psalm 8, Man given dominion over creation. However, not everything is presently in subjection to us yet. |
+| **Ps 8:3-8**     | Humanity is crowned with glory and honor, given dominion over all living creatures and the earth.               |
+| **Ps 115:16**    | God has given the earth to mankind, showing humanity's entrusted role in managing creation.                     |
+| **Ps 22:22**     | Fulfillment of the dominion mandate in the future via the ascension of Christ.                                  |
+| **Ps 22:27-28**  | Kingship of the Lord and His dominion                                                                           |
+| **Matt 6:26**    | Humanity's value surpasses creation, reminding us of God's provision and care for all life.                     |
+| **Heb 2:6-8**   | Quotes Psalm 8, Man given dominion over creation. However, not everything is presently in subjection to us yet. |
 | **EoBP**            | Encylopedia of Biblical Prophecy, Payne J. Barton, Year 2020 (Original 1973)                                    |
