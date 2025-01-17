@@ -3,6 +3,8 @@ sidebar_position: 3
 ---
 # Gen 2:3 The Seventh Day
 
+![Christ is our Rest](./christ-burdens.png)
+
 > Gen 2:3 \
 > 3 So God blessed the seventh day and made it holy, \
 because on it God rested from all his work that he had done in creation
