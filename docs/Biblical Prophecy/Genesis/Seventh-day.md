@@ -29,4 +29,3 @@ This is a direct claim to being the author (God) of the Sabbath and the very rea
 7 And if you had known what this means, ‘I desire mercy, and not sacrifice,’ you would not have condemned the guiltless. \
 8 For the Son of Man is lord of the Sabbath.” 
 
-
