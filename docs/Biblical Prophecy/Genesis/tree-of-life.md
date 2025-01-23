@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 ---
-# Tree of Life
+# Gen 2:9 Tree of Life
 
 ## Genesis
 Genesis 2:9; 3:22, 24 
