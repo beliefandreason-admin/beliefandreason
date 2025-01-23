@@ -1,10 +1,13 @@
 ---
 sidebar_position: 2
+date: 2025-01-11
 ---
 
 # Gen 1:26 Dominion
 
 ![Lion and Lamb](./lion-lamb.png)
+
+<p>Date: {frontMatter.date}</p>
 
 > Genesis 1:26, 28 \
 > Let man have dominion... over all the Earth
