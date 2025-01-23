@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Gen 1:26, 28 Dominion
+# Gen 1:26 Dominion
 
 ![Lion and Lamb](./lion-lamb.png)
 
