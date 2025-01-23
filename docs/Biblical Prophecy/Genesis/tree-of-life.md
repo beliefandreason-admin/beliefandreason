@@ -3,8 +3,8 @@ sidebar_position: 4
 ---
 # Tree of Life
 
+## Genesis
 Genesis 2:9; 3:22, 24 
-Three Verse Type
 
 > Gen 2:9 \
 9 And out of the ground the LORD God made to spring up every tree that is pleasant to the sight and good for food. \
@@ -14,11 +14,17 @@ The tree of life was in the midst of the garden
 22 Then the LORD God said, “Behold, the man has become like one of us in knowing good and evil. \
 Now, **lest he reach out his hand and take also of the tree of life and eat, and live forever—**”
 
-The tree is a symbol of life. 
-It signifies living forever. 
-It stood in the center of the garden.
+> Gen 3:24 \
+24 He drove out the man, and at the east of the garden of Eden he placed the cherubim and a flaming sword that turned every way to guard the way to the tree of life. 
+
+- The tree is a symbol of life. 
+- It signifies living forever. 
+- It stood in the center of the garden.
+- If man had not fallen he would have continued living in the garden and fulfilled the dominion mandate. Notice the tree was given by God as a blessing!
 
 [JBP] "The tree, moreover, did not lose its power through humanity's fall; it prophesies a life yet to be attained in the future." 
+
+## Revelation
 
 > Rev 2:7 
 7 He who has an ear, let him hear what the Spirit says to the churches. \
