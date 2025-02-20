@@ -110,10 +110,6 @@ const config = {
                 label: 'Discord',
                 href: 'https://discord.gg/2yJDzYTcdC',
               },
-              {
-                label: 'X',
-                href: 'https://x.com/beliefnreason',
-              },
             ],
           },
           {
