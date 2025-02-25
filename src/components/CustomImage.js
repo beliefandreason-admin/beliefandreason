@@ -16,7 +16,7 @@ const CustomImage = ({ src, alt, width, height, caption, citation }) => (
     {citation && (
       <blockquote
         style={{
-          fontSize: '12px',
+          fontSize: '14px',
           color: '#999',
           fontStyle: 'italic',
           marginTop: '5px',
