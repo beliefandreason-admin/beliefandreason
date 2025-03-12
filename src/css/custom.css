@@ -118,6 +118,24 @@ html, body {
   visibility: hidden;
 }
 
+.apg-icon {
+  position: fixed !important;  /* Stays fixed regardless of scrolling */
+  bottom: 20px !important;  /* Distance from the bottom */
+  right: 20px !important;  /* Distance from the right */
+  z-index: 9999 !important;  /* Ensures it stays above other elements */
+  width: 50px !important;  /* Adjust size if needed */
+  height: 50px !important;
+}
+
+/* Ensure it scales properly on smaller screens */
+@media (max-width: 768px) {
+  .apg-icon {
+      bottom: 15px !important;  /* Slightly higher on mobile */
+      right: 15px !important;  /* Adjusted for smaller screens */
+      width: 45px !important;  /* Slightly smaller for mobile */
+      height: 45px !important;
+  }
+}
 
 
 

@@ -142,7 +142,8 @@ const config = {
         "data-color": "#2e4885",
         "data-preamble": "Relentlessly pursue answers to complex questions",
         "data-headline": "Belief and Reason",
-        "data-description": "Ask and you shall receive!"
+        "data-description": "Ask and you shall receive!",
+        "data-position": "top-right"
       }
     ],
 };
