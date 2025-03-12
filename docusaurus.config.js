@@ -130,6 +130,21 @@ const config = {
         insights: false,
       },
     }),
+
+    scripts: [
+      {
+        src: "https://apologist.ai/beacon/agent.min.js",
+        async: true,
+        id: "apg-beacon",
+        "data-language": "en",
+        "data-translation": "esv",
+        "data-theme": "dark",
+        "data-color": "#2e4885",
+        "data-preamble": "Relentlessly pursue answers to complex questions",
+        "data-headline": "Belief and Reason",
+        "data-description": "Ask and you shall receive!"
+      }
+    ],
 };
 
 export default config;
