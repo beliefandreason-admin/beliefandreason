@@ -137,5 +137,126 @@ html, body {
   }
 }
 
+/* Latest Articles Page Styles */
+.latest-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.latest-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.latest-article-card {
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 300px; /* ✅ Prevents items from stretching too wide */
+  margin: auto;
+}
+
+.latest-article-image {
+  width: 100%; /* ✅ Make image responsive */
+  max-width: 250px; /* ✅ Limit max width */
+  max-height: 180px; /* ✅ Limit max height */
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.latest-article-title {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* 🚀 Home Page Carousel Only */
+.homepage-carousel-container {
+  text-align: center;
+  margin: 40px auto;
+  max-width: 900px;
+}
+
+/* Limit the image size only on the homepage */
+.homepage-carousel-image {
+  width: 400px; /* ✅ Fixed width */
+  height: 250px; /* ✅ Fixed height */
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* Center text under images */
+.homepage-carousel-text {
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  max-width: 220px; /* ✅ Matches image width */
+}
+
+/* Adjust swiper slides */
+.swiper-slide-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+/* Ensure the hero title is centered */
+.hero__title {
+  text-align: center !important; /* ✅ Force center alignment */
+  width: 100%;
+}
+
+/* Center the subtitle as well */
+.hero__subtitle {
+  text-align: center;
+  width: 100%;
+}
+
+/* Ensure the hero banner container aligns everything */
+.hero-banner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+/* Ensure hero content is centered */
+.hero-banner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* ✅ Centers all content */
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+/* Ensure hero content is centered */
+.hero-banner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* ✅ Centers all content */
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+/* Ensure the welcome button is centered */
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Adds space above the button */
+  width: 100%;
+}
+
+
 
 

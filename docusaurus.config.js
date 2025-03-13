@@ -71,11 +71,16 @@ const config = {
         },
         items: [
           {
+            label: "Latest Articles",
+            to: "/latest-articles",
+          },
+          {
             type: 'docSidebar',
             sidebarId: 'docSidebar',
             position: 'left',
             label: 'Docs',
           },
+
           { to: '/blog', label: 'Blog', position: 'left' },
         ],
       },
