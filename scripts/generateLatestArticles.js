@@ -32,17 +32,20 @@ const extractImageFromContent = (content) => {
 
 // Recursive function to get all markdown files in the docs directory
 const getAllMarkdownFiles = (dir) => {
-  let files = [];
-  fs.readdirSync(dir).forEach((file) => {
-    const fullPath = path.join(dir, file);
-    if (fs.statSync(fullPath).isDirectory()) {
-      files = files.concat(getAllMarkdownFiles(fullPath)); // Recursively add files from subdirectories
-    } else if (file.endsWith(".md") || file.endsWith(".mdx")) {
-      files.push(fullPath);
-    }
-  });
-  return files;
-};
+    let files = [];
+    fs.readdirSync(dir).forEach((file) => {
+      if (file.startsWith("_")) return; // ✅ Skip files with an underscore prefix
+  
+      const fullPath = path.join(dir, file);
+      if (fs.statSync(fullPath).isDirectory()) {
+        files = files.concat(getAllMarkdownFiles(fullPath)); // Recursively add files from subdirectories
+      } else if (file.endsWith(".md") || file.endsWith(".mdx")) {
+        files.push(fullPath);
+      }
+    });
+    return files;
+  };
+  
 
 // Function to clean and format links properly
 const cleanPath = (filePath) => {

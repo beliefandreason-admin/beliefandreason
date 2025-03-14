@@ -71,27 +71,28 @@ const config = {
         },
         items: [
           {
-            label: "Latest Articles",
-            to: "/latest-articles",
-          },
-          {
             type: 'docSidebar',
             sidebarId: 'docSidebar',
             position: 'left',
-            label: 'Docs',
+            label: 'Library',
+          },
+          {
+            label: "Latest Documents",
+            to: "/latest-articles",
           },
 
-          { to: '/blog', label: 'Blog', position: 'left' },
+
+          // { to: '/blog', label: 'Blog', position: 'left' },
         ],
       },
       footer: {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Documents',
             items: [
               {
-                label: 'Intro',
+                label: 'Introduction',
                 to: '/docs/intro',
               },
             ],
@@ -108,10 +109,7 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
+              // { label: 'Blog', to: '/blog',},
               {
                 label: 'GitHub',
                 href: 'https://github.com/beliefandreason-admin/beliefandreason',

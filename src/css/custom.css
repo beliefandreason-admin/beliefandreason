@@ -14,6 +14,7 @@
   --ifm-color-primary-lightest: #3c5ead;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --swiper-navigation-color:var(--bible-quote-bg-light);
 
   --feature-heading-color: #2e4885; /* Example light theme color */
   /* Light theme Bible reference color */
@@ -141,8 +142,10 @@ html, body {
 .latest-title {
   text-align: center;
   font-size: 28px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  margin-top: 50px;
 }
+
 
 .latest-grid {
   display: grid;
@@ -152,28 +155,116 @@ html, body {
   padding: 20px;
 }
 
+/* Ensure all article cards are the same height */
 .latest-article-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   text-align: center;
-  border: 1px solid #ddd;
+  width: 100%;
+  max-width: 300px;
+  min-height: 420px;
+  padding: 0;
+  background-color: var(--latest-card-bg-light); /* ✅ Use variable */
+  color: var(--latest-card-text-light); /* ✅ Use variable */
+  border: 1px solid var(--latest-card-border-light); /* ✅ Use variable */
   border-radius: 10px;
-  padding: 15px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-  max-width: 300px; /* ✅ Prevents items from stretching too wide */
-  margin: auto;
+  overflow: hidden;
+  position: relative;
+  transition: background 0.3s, color 0.3s; /* ✅ Smooth transition between themes */
 }
 
+/* Dark mode styles */
+[data-theme='dark'] .latest-article-card {
+  background-color: var(--latest-card-bg-dark);
+  color: var(--latest-card-text-dark);
+  border: 1px solid var(--latest-card-border-dark);
+}
+
+/* Ensure images fully cover the top of the card */
 .latest-article-image {
-  width: 100%; /* ✅ Make image responsive */
-  max-width: 250px; /* ✅ Limit max width */
-  max-height: 180px; /* ✅ Limit max height */
+  width: 100%;
+  height: 260px;
   object-fit: cover;
-  border-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
+/* Content container ensures title does not push date */
+.latest-article-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10px 15px;
+}
+
+/* Title styling with max height to prevent shifting */
 .latest-article-title {
   font-size: 16px;
-  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+  max-width: 90%;
+  word-wrap: break-word;
+  white-space: normal;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  height: 65px;
+  margin: 0 auto;
+  padding: 0;
 }
+
+/* Date is always positioned at the bottom */
+.latest-article-date {
+  font-size: 14px;
+  color: var(--latest-card-text-light);
+  text-align: center;
+  margin: 0;
+  font-weight: bold;
+}
+
+/* Dark mode date color */
+[data-theme='dark'] .latest-article-date {
+  color: var(--latest-card-text-dark);
+}
+
+/* New footer container ensures date stays aligned */
+.latest-article-footer {
+  width: 100%;
+  padding: 10px;
+  border-top: 1px solid var(--latest-card-border-light);
+  background: var(--latest-card-footer-light);
+  position: absolute;
+  bottom: 0;
+}
+
+/* Dark mode footer */
+[data-theme='dark'] .latest-article-footer {
+  background: var(--latest-card-footer-dark);
+  border-top: 1px solid var(--latest-card-border-dark);
+}
+
+/* Define Theme Variables */
+:root {
+  --latest-card-bg-light: #ffffff;
+  --latest-card-text-light: #333;
+  --latest-card-border-light: #ddd;
+  --latest-card-footer-light: #ffffff;
+}
+
+[data-theme='dark'] {
+  --latest-card-bg-dark: #2a2a2a;
+  --latest-card-text-dark: #f5f5f5;
+  --latest-card-border-dark: #444;
+  --latest-card-footer-dark: #333;
+}
+
 
 /* 🚀 Home Page Carousel Only */
 .homepage-carousel-container {
@@ -196,7 +287,10 @@ html, body {
   font-size: 14px;
   font-weight: bold;
   text-align: center;
-  max-width: 220px; /* ✅ Matches image width */
+  max-width: 320px; /* ✅ Matches image width */
+  /* padding-left: 1.5rem;
+  padding-right: 1.5rem;*/
+  margin: auto;
 }
 
 /* Adjust swiper slides */
@@ -204,20 +298,22 @@ html, body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 /* Ensure the hero title is centered */
 .hero__title {
-  text-align: center !important; /* ✅ Force center alignment */
+  text-align: center !important;
   width: 100%;
 }
 
-/* Center the subtitle as well */
+/* Center the subtitle as well  */
 .hero__subtitle {
   text-align: center;
   width: 100%;
 }
+
 
 /* Ensure the hero banner container aligns everything */
 .hero-banner-container {
@@ -229,34 +325,39 @@ html, body {
   width: 100%;
 }
 
-/* Ensure hero content is centered */
-.hero-banner-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;  /* ✅ Centers all content */
-  justify-content: center;
-  text-align: center;
-  width: 100%;
-}
 
 /* Ensure hero content is centered */
 .hero-banner-container {
   display: flex;
   flex-direction: column;
-  align-items: center;  /* ✅ Centers all content */
+  align-items: center; 
   justify-content: center;
   text-align: center;
   width: 100%;
 }
+
+
+/* Ensure hero content is centered */
+.hero-banner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+ 
 
 /* Ensure the welcome button is centered */
 .hero-buttons {
   display: flex;
   justify-content: center;
-  margin-top: 20px; /* Adds space above the button */
+  margin-top: 20px; 
   width: 100%;
 }
 
-
+p.latest-description {
+  text-align: center;
+}
 
 
